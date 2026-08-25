@@ -32,3 +32,21 @@ for (i = 1; i <= 5; i++) {
 
     console.log(str);
 }
+console.log(" ")
+let s, p, r;
+
+for (s = 1; s<= 9; s++) {
+    let str = "";
+
+    for (p = 1; p<= 5 - s; p++)
+    {
+        str += " ";
+    }
+
+    for (r = 1; r <= s; r++) {
+        str += "* ";
+    }
+
+    console.log(str);
+}
+console.log(" ")
